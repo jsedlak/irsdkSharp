@@ -51,6 +51,7 @@
         public string BuildType { get; set; }
         public string BuildTarget { get; set; }
         public string BuildVersion { get; set; }
+        public string AIRosterName { get; set; }
         public WeekendOptionsModel WeekendOptions { get; set; }
         public TelemetryOptionsModel TelemetryOptions { get; set; }
     }
